@@ -1,0 +1,10 @@
+[package]
+name = "ferrj_stock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sqlx = { version = "0.7", features = ["runtime-tokio", "mysql", "macros"] }
+tokio = { version = "1", features = ["full"] }
+dotenvy = "0.15"
+crossterm = "0.26"
